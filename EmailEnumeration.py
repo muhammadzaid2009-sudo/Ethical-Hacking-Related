@@ -2,7 +2,7 @@ import sys
 import requests
 
 def check_email(email):
-    url = 'http://enum.thm/labs/verbose_login/functions.php'
+    url = 'Enter Target URL Here'
     headers = {
         'Host': 'enum.thm',
         'User-Agent': 'Mozilla/5.0 (X11; Linux aarch64; rv:102.0) Gecko/20100101 Firefox/102.0',
@@ -10,7 +10,7 @@ def check_email(email):
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'X-Requested-With': 'XMLHttpRequest',
         'Origin': 'http://enum.thm',
-        'Referer': 'http://enum.thm/labs/verbose_login/',
+        'Referer': 'CHANGE THIS',
     }
     data = {
         'username': email,
